@@ -1,0 +1,39 @@
+{
+  "title": "Incident intake",
+  "description": "Lightweight intake for customer-reported incidents (sample for import).",
+  "questions": [
+    {
+      "id": "incident_id",
+      "type": "short_text",
+      "label": "Incident / ticket id",
+      "required": true,
+      "placeholder": "e.g. INC-20491"
+    },
+    {
+      "id": "severity",
+      "type": "single_choice",
+      "label": "Severity",
+      "required": true,
+      "options": ["Low", "Medium", "High", "Critical"]
+    },
+    {
+      "id": "affected_systems",
+      "type": "multiple_choice",
+      "label": "Affected systems",
+      "required": false,
+      "options": ["Email", "VPN", "Customer portal", "Internal tools"]
+    },
+    {
+      "id": "reported_at",
+      "type": "date",
+      "label": "Date observed",
+      "required": false
+    },
+    {
+      "id": "summary",
+      "type": "long_text",
+      "label": "What happened?",
+      "required": true
+    }
+  ]
+}

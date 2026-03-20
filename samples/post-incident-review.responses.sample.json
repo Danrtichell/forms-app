@@ -1,0 +1,26 @@
+{
+  "responses": [
+    {
+      "answers": {
+        "incident_ref": "PIR-2026-014",
+        "incident_date": "2026-03-14",
+        "root_cause_category": "Configuration",
+        "impact_areas": ["Availability", "Customer trust"],
+        "time_to_recover_minutes": 47,
+        "follow_up_actions": "Add staged rollout checks and mandatory config peer review."
+      },
+      "submittedAt": "2026-03-15T13:20:00.000Z"
+    },
+    {
+      "answers": {
+        "incident_ref": "PIR-2026-015",
+        "incident_date": "2026-03-16",
+        "root_cause_category": "Third-party",
+        "impact_areas": ["Performance"],
+        "time_to_recover_minutes": 92,
+        "follow_up_actions": "Introduce vendor health alerts and fallback provider runbook."
+      },
+      "submittedAt": "2026-03-17T10:05:00.000Z"
+    }
+  ]
+}

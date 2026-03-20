@@ -1,0 +1,16 @@
+{
+  "name": "@cyberone/forms",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "check-types": "turbo check-types"
+  },
+  "packageManager": "pnpm@10.6.1",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "turbo": "^2.5.0"
+  }
+}

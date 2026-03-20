@@ -1,0 +1,38 @@
+{
+  "title": "New hire onboarding checklist",
+  "description": "Operational checklist for onboarding a new team member.",
+  "questions": [
+    {
+      "id": "employee_name",
+      "type": "short_text",
+      "label": "Employee full name",
+      "required": true
+    },
+    {
+      "id": "start_date",
+      "type": "date",
+      "label": "Planned start date",
+      "required": true
+    },
+    {
+      "id": "equipment_ready",
+      "type": "single_choice",
+      "label": "Laptop and accessories prepared?",
+      "required": true,
+      "options": ["Yes", "No", "Partially"]
+    },
+    {
+      "id": "required_accounts",
+      "type": "multiple_choice",
+      "label": "Accounts requested",
+      "required": false,
+      "options": ["Email", "VPN", "HRIS", "Issue Tracker", "Git"]
+    },
+    {
+      "id": "notes",
+      "type": "long_text",
+      "label": "Additional onboarding notes",
+      "required": false
+    }
+  ]
+}

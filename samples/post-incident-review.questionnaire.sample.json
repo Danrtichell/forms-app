@@ -1,0 +1,44 @@
+{
+  "title": "Post-incident review",
+  "description": "Structured retrospective after resolving an operational incident.",
+  "questions": [
+    {
+      "id": "incident_ref",
+      "type": "short_text",
+      "label": "Incident reference",
+      "required": true
+    },
+    {
+      "id": "incident_date",
+      "type": "date",
+      "label": "Incident date",
+      "required": true
+    },
+    {
+      "id": "root_cause_category",
+      "type": "single_choice",
+      "label": "Root cause category",
+      "required": true,
+      "options": ["Configuration", "Capacity", "Code defect", "Human error", "Third-party"]
+    },
+    {
+      "id": "impact_areas",
+      "type": "multiple_choice",
+      "label": "Impact areas",
+      "required": true,
+      "options": ["Availability", "Performance", "Data integrity", "Security", "Customer trust"]
+    },
+    {
+      "id": "time_to_recover_minutes",
+      "type": "number",
+      "label": "Time to recover (minutes)",
+      "required": true
+    },
+    {
+      "id": "follow_up_actions",
+      "type": "long_text",
+      "label": "Follow-up actions",
+      "required": true
+    }
+  ]
+}

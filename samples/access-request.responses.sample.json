@@ -1,0 +1,24 @@
+{
+  "responses": [
+    {
+      "answers": {
+        "requester_name": "Aiden Perez",
+        "department": "Operations",
+        "systems_needed": ["CRM", "Analytics"],
+        "access_duration_days": 180,
+        "justification": "Need dashboard and customer records access for quarterly reporting."
+      },
+      "submittedAt": "2026-03-20T08:15:00.000Z"
+    },
+    {
+      "answers": {
+        "requester_name": "Lina Chen",
+        "department": "Support",
+        "systems_needed": ["Admin Console"],
+        "access_duration_days": 30,
+        "justification": "Temporary incident triage support for escalations."
+      },
+      "submittedAt": "2026-03-20T09:40:00.000Z"
+    }
+  ]
+}

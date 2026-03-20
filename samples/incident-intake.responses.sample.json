@@ -1,0 +1,24 @@
+{
+  "responses": [
+    {
+      "answers": {
+        "incident_id": "INC-001",
+        "severity": "High",
+        "affected_systems": ["VPN", "Customer portal"],
+        "reported_at": "2025-03-10",
+        "summary": "VPN disconnects under peak load; portal timeouts for EU users."
+      },
+      "submittedAt": "2025-03-10T14:22:00.000Z"
+    },
+    {
+      "answers": {
+        "incident_id": "INC-002",
+        "severity": "Medium",
+        "affected_systems": ["Email"],
+        "reported_at": "2025-03-11",
+        "summary": "Delayed delivery to external domains; cleared after DNS fix."
+      },
+      "submittedAt": "2025-03-11T09:05:00.000Z"
+    }
+  ]
+}

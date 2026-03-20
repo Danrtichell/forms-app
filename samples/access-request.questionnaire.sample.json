@@ -1,0 +1,38 @@
+{
+  "title": "System access request",
+  "description": "Request and approve internal system access for employees or contractors.",
+  "questions": [
+    {
+      "id": "requester_name",
+      "type": "short_text",
+      "label": "Requester name",
+      "required": true
+    },
+    {
+      "id": "department",
+      "type": "single_choice",
+      "label": "Department",
+      "required": true,
+      "options": ["Operations", "Engineering", "Finance", "Support", "Security"]
+    },
+    {
+      "id": "systems_needed",
+      "type": "multiple_choice",
+      "label": "Systems requested",
+      "required": true,
+      "options": ["CRM", "Analytics", "Admin Console", "Cloud Dashboard", "Billing"]
+    },
+    {
+      "id": "access_duration_days",
+      "type": "number",
+      "label": "Access duration (days)",
+      "required": true
+    },
+    {
+      "id": "justification",
+      "type": "long_text",
+      "label": "Business justification",
+      "required": true
+    }
+  ]
+}
